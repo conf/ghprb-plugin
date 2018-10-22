@@ -1,5 +1,11 @@
 ### Updates
 
+### -> 1.43.0
+
+* NOTE: Changed RateLimitHandler from WAIT to FAIL for GitHub rate limiter
+
+[#714]: https://github.com/jenkinsci/ghprb-plugin/pull/714
+
 ### -> 1.42.1
 
 * No longer use deprecated github-api API `gitHttpTransportUrl()` ([#772][#772])
